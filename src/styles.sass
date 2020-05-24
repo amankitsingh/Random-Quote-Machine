@@ -1,0 +1,89 @@
+*
+  margin: 0
+  padding: 0
+  list-style:none
+  vertical-align: top
+
+div
+  position: relative
+  z-index: 2
+  .footer
+    position: fixed
+    z-index: 2
+
+body 
+  background-color: yellowgreen
+  color: #333
+  font-weight: 400
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 100vh
+
+#quote-box
+  border-radius: 3px
+  position: relative
+  width: 450px
+  padding: 40px 50px
+  display: table
+  background-color: #fff
+  #quote-text
+    text-align: center
+    width: 750px
+    height: auto
+    clear: both
+    font-weight: 500
+    font-size: 1.75em
+  #quote-author
+    width: 650px
+    height: auto
+    clear: both
+    padding-top: 20px
+    font-size: 1em
+    margin-top: 10px
+    text-align: right
+  #twitter-icon
+    font-size: 1.0em
+    margin-left: 0.6em
+  #tumblr-icon
+    font-size: 1.0em
+    margin-left: 0.7em
+  .buttons
+    width: 550px
+    margin: auto
+    display: block
+    .button
+      height: 38px
+      border: none
+      border-radius: 3px
+      color: #fff
+      background-color: yellowgreen
+      outline: none
+      font-size: 0.85em
+      padding: 8px 18px 6px 18px
+      margin-top: 30px
+      opacity: 1
+      cursor: pointer
+    & :hover 
+        opacity: 0.9
+    & #tweet-quote
+        float: left
+        padding: 0px
+        padding-top: 8px
+        text-align :center
+        font-size: 1.2em
+        margin-right: 5px
+        height: 30px
+        width: 40px
+    & #tumblr-quote
+        float: left
+        padding: 0px
+        padding-top: 8px
+        text-align :center
+        font-size: 1.2em
+        margin-right: 5px
+        height: 30px
+        width: 40px
+    & #new-quote 
+        float: right
+
